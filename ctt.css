@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image:url("espaço.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:black;
+    font-family:Arial, sans-serif;
+}
+
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px;
+
+    background-color:black;
+
+    border-bottom:1px solid gray;
+
+}
+
+.logo{
+
+    width:70px;
+
+}
+
+ul{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+li{
+
+    margin-left:30px;
+
+}
+
+a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    transition:0.3s;
+
+}
+
+a:hover{
+
+    color:#FC3D21;
+
+    transform:translateY(-2px);
+
+}
+.logo-container{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    width:70px;
+
+}
+
+.logo-container h2{
+    font-family: 'Orbitron', sans-serif;
+
+    margin-left:12px;
+
+    color:#FFF;
+
+    font-family:'Orbitron', sans-serif;
+
+    font-size:30px;
+
+    letter-spacing:3px;
+
+}
+
+/* Css aba Contato a partir daq */
+
+.formulario_container{
+    background-color: rgb(0, 0, 0);
+
+    border: 1;
+
+    border-color: rgb(255, 255, 255);
+
+    border-width: 1px;
+
+    border-style: solid;
+
+    border-radius: 25px;
+
+    display: flex;
+
+    margin-top: 125px; 
+
+    width: 35vw;
+
+    height: 70vh;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    align-items: center;
+
+}
+
+.logo_contato{
+    width: 125px;
+}
+
+.container_logo_formulario{
+    display: block;
+    align-items: flex-start;
+    justify-items: center;
+    background-color: #FC3D21;
+}
