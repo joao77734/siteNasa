@@ -110,7 +110,7 @@ a:hover{
 
     border-radius: 25px;
 
-    display: flex;
+    display:flex;
 
     margin-top: 125px; 
 
@@ -122,7 +122,7 @@ a:hover{
 
     margin-right: auto;
 
-    align-items: center;
+    align-items:flex-start
 
 }
 
@@ -131,8 +131,8 @@ a:hover{
 }
 
 .container_logo_formulario{
-    display: block;
-    align-items: flex-start;
-    justify-items: center;
+    display: inline-block;
+    /* align-items: center;
+    justify-items: center; */
     background-color: #FC3D21;
 }
