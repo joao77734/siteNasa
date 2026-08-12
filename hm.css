@@ -66,7 +66,7 @@ a:hover{
     transform:translateY(-2px);
 
 }
-.logo-container{
+.logo-div{
 
     display:flex;
 
@@ -80,7 +80,7 @@ a:hover{
 
 }
 
-.logo-container h2{
+.logo-div h2{
     font-family: 'Orbitron', sans-serif;
 
     margin-left:12px;
@@ -95,10 +95,12 @@ a:hover{
 
 }
 
-.conteiner_Espaco{
-    margin-left: 7%;
-    padding-top: 80px;
+.div_espaco{
+    display: flex;
     color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
 }
 
 .sub_titulo{
@@ -107,33 +109,35 @@ a:hover{
 }
 
 .botao_Aba_espace{
+    
     background-color:#0B3D91;
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height:  56px;
     width: 150px;
     border-radius: 6px;
     font-size: 16px;
-    padding: 0 22px;
+    padding: 0px 22px;
 
 }
 
-.espacamento_margem{
-    margin-left: 7%;
+.espacamento_botao{
+    margin-top: 30px;
+    
 }
 
-.container_novidades{
+.div_novidades{
     background-color: white;
     width: 100vw;
     height: auto;
-    padding: 0 22px;
     display: block;
+    padding: 0 22px;
     justify-content: space-between;
 
 }
 
-.p_novidades{
+.Texto_novidades{
     margin-left: 39%;
     color: #FC3D21;
     font-size: 50px;
@@ -143,9 +147,113 @@ a:hover{
 
 
 .img_size_novidades{
-    width:18vw;
+    width:17vw;
     height: 30vh;
-    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 10%;
+    padding: 10px 0px;
+    
     
     
 }
+
+.div_img_novidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 30px;
+    
+}
+
+.div_img_texto_novidade{
+    width: 20vw;
+    height: 70vh;
+    text-align:center;
+    background-image: url(fundo.jfif);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+.texto_novidades{
+    font-size: 17px;
+    margin-top: 10x;
+    color: white;
+    
+}
+
+.botao_novidades{
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:  30px;
+    width: 120px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 22px;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.botao_novidades:hover{
+    color: black;
+    background-color: #0B3D91;
+}
+
+.div_terra_clima{
+    width: 100vw;
+    height: auto;
+    display: inline-block;
+    padding: 0 22px;
+    justify-content: space-between;
+    
+    
+}
+
+.Texto_terra_clima{
+    color: white;
+    font-size: 50px;
+    
+    
+}
+
+.div_titulo_clima_terra{
+    text-align: end;
+    width: 100vw;
+    height: 50px;
+    display: inline-block;
+    
+}
+
+.div_texto_clima_terra{
+    width: 50vw;
+    height: auto;
+
+}
+
+.texto_sobre_terra_clima{
+    color: white;
+    font-size: 15px;
+}
+
+.img_terra{
+    width: 500px;
+    height: auto;
+
+
+}
+.div_img_terra{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10x 0px;
+    width: auto;
+    height: auto;
+
+}
+
