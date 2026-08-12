@@ -126,6 +126,26 @@ a:hover{
 .container_novidades{
     background-color: white;
     width: 100vw;
-    height: 45vh;
+    height: auto;
     padding: 0 22px;
+    display: block;
+    justify-content: space-between;
+
+}
+
+.p_novidades{
+    margin-left: 39%;
+    color: #FC3D21;
+    font-size: 50px;
+    height: auto
+    
+}
+
+
+.img_size_novidades{
+    width:18vw;
+    height: 30vh;
+    margin-left: 80px;
+    
+    
 }
