@@ -212,6 +212,7 @@ a:hover{
     display: inline-block;
     padding: 0 22px;
     justify-content: space-between;
+    background-color: black;
     
     
 }
@@ -239,21 +240,22 @@ a:hover{
 
 .texto_sobre_terra_clima{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .img_terra{
     width: 500px;
     height: auto;
-
-
 }
+
+
 .div_img_terra{
     display: flex;
-    justify-content: flex-end;
-    padding: 10x 0px;
-    width: auto;
-    height: auto;
-
+    justify-content: flex-start;
 }
 
+.div_clima_terra {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px; 
+}
